@@ -1,0 +1,15 @@
+.myClass{
+    color:green;
+    font-family: 'Oswald', sans-serif;
+      
+}
+.fontsize{
+    font-size: 60px;
+}
+.external-css{
+    color:blue;
+    font-size: 40px;
+    font-style: italic;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
