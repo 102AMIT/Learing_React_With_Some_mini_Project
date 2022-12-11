@@ -1,13 +1,13 @@
 import './App.css';
-// import First from './components/First';
-// import Second from './components/Second';
-// import Third from './components/Third';
-// import Parent from './components/child to parents props/Parent';
-// import Login from './components/Conditinal Rendering/Login';
-// import Lists from './components/Lists and keys/Lists';
-// import Toggle from './components/Toggle/Toggle';
-// import Style from './components/Style formets/Style';
-import Form from './components/Form handelling using class/Form';
+// import First from './class_components/First';
+// import Second from './class_components/Second';
+// import Third from './class_components/Third';
+// import Parent from './class_components/child to parents props/Parent';
+// import Login from './class_components/Conditinal Rendering/Login';
+// import Lists from './class_components/Lists and keys/Lists';
+// import Toggle from './class_components/Toggle/Toggle';
+// import Style from './class_components/Style formets/Style';
+// import Form from './class_components/Form handelling using class/Form';
 
 
 
@@ -24,7 +24,7 @@ function App() {
       {/* <Lists /> */}
       {/* <Toggle /> */}
       {/* <Style myClass={true}/> */}
-      <Form />
+      {/* <Form /> */}
     </div>
     
   );
