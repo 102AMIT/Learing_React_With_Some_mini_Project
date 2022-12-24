@@ -9,7 +9,7 @@ import './App.css';
 // import Style from './class_components/Style formets/Style';
 // import Form from './class_components/Form handelling using class/Form';
 
-
+import UseState from './function_components/react_hooks/UseState';
 
 
 function App() {
@@ -25,6 +25,7 @@ function App() {
       {/* <Toggle /> */}
       {/* <Style myClass={true}/> */}
       {/* <Form /> */}
+      <UseState />
     </div>
     
   );
