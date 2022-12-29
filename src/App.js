@@ -8,8 +8,13 @@ import './App.css';
 // import Toggle from './class_components/Toggle/Toggle';
 // import Style from './class_components/Style formets/Style';
 // import Form from './class_components/Form handelling using class/Form';
+// import UseState from './function_components/react_hooks/UseState';
+// import UseStateArray from './function_components/react_hooks/UseStateArray';
+// import UseStateObject from './function_components/react_hooks/UseStateObject';
+// import ShortCirEval from './function_components/react_hooks/ShortCirEval';
+import Form from './function_components/formValidation/Form';
 
-import UseState from './function_components/react_hooks/UseState';
+
 
 
 function App() {
@@ -25,7 +30,11 @@ function App() {
       {/* <Toggle /> */}
       {/* <Style myClass={true}/> */}
       {/* <Form /> */}
-      <UseState />
+      {/* <UseState /> */}
+      {/* <UseStateArray /> */}
+      {/* <UseStateObject /> */}
+      {/* <ShortCirEval /> */}
+      <Form />
     </div>
     
   );
