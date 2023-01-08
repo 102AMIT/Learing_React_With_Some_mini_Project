@@ -12,7 +12,17 @@ import './App.css';
 // import UseStateArray from './function_components/react_hooks/UseStateArray';
 // import UseStateObject from './function_components/react_hooks/UseStateObject';
 // import ShortCirEval from './function_components/react_hooks/ShortCirEval';
-import Form from './function_components/formValidation/Form';
+// import Form from './function_components/formValidation/Form';
+// import UseEffect1 from './function_components/useEffect_hooks/UseEffect1';
+// import UseEffect2 from './function_components/useEffect2/UseEffect2';
+// import Counter from './function_components/counter/Counter';
+// import UseRef from './function_components/UseRef/UseRef';
+import UseReducerHook from './function_components/UseReducer/UseReducerHook';
+
+
+
+
+
 
 
 
@@ -34,7 +44,12 @@ function App() {
       {/* <UseStateArray /> */}
       {/* <UseStateObject /> */}
       {/* <ShortCirEval /> */}
-      <Form />
+      {/* <Form /> */}
+      {/* <UseEffect1 /> */}
+      {/* <UseEffect2 /> */}
+      {/* <Counter /> */}
+      {/* <UseRef /> */}
+      <UseReducerHook />
     </div>
     
   );

@@ -1,0 +1,31 @@
+.container{
+    height: 50%;
+    width: 30%;
+    background-color: aquamarine;
+    margin-left: 35%;
+    margin-top: 10%;
+    border-radius: 10px;
+}
+h1{
+    color: rebeccapurple;
+    font-size: 20px;
+}
+
+input[type="text"]{
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+button{
+    width: 20%;
+    height: 10%;
+    padding: 5px;
+    color: rebeccapurple;
+    background-color: greenyellow;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    margin-top: 10px;
+
+}
