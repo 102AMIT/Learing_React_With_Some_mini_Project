@@ -1,4 +1,4 @@
-import { createContext } from 'react';
+// import { createContext } from 'react';
 import './App.css';
 // import First from './class_components/First';
 // import Second from './class_components/Second';
@@ -19,7 +19,7 @@ import './App.css';
 // import Counter from './function_components/counter/Counter';
 // import UseRef from './function_components/UseRef/UseRef';
 // import UseReducerHook from './function_components/UseReducer/UseReducerHook';
-import Context1 from './function_components/Context_Api/Context1'
+import ComA from './function_components/UseContext/ComA';
 
 
 
@@ -27,8 +27,10 @@ import Context1 from './function_components/Context_Api/Context1'
 
 
 // this is for context api
-const FirstName=createContext();
-const lastName=createContext();
+
+// import Context1 from './function_components/Context_Api/Context1'
+// const FirstName=createContext();
+// export const lastName=createContext();
 
 
 
@@ -58,14 +60,16 @@ function App() {
 
 
       {/* // this is for context api */}
-      <FirstName.Provider value={'Sending from app ..'}>
+      {/* <FirstName.Provider value={'Sending from app ..'}>
       <lastName.Provider value={'Amit'}>
           <Context1 /> 
       </lastName.Provider>
-      </FirstName.Provider>
+      </FirstName.Provider> */}
       {/* // this is for context api */}
 
+      {/* This is for UseContext */}
 
+      <ComA />
 
     </div>
     
@@ -74,4 +78,4 @@ function App() {
 
 export default App;
 
-export {FirstName,lastName};
+// export {FirstName,lastName};
