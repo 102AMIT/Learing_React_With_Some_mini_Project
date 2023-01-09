@@ -19,7 +19,9 @@ import './App.css';
 // import Counter from './function_components/counter/Counter';
 // import UseRef from './function_components/UseRef/UseRef';
 // import UseReducerHook from './function_components/UseReducer/UseReducerHook';
-import ComA from './function_components/UseContext/ComA';
+// import ComA from './function_components/UseContext/ComA';
+import Test1 from './function_components/CustomHook/Test1';
+
 
 
 
@@ -58,18 +60,23 @@ function App() {
       {/* <UseRef /> */}
       {/* <UseReducerHook /> */}
 
-
+      
       {/* // this is for context api */}
+
       {/* <FirstName.Provider value={'Sending from app ..'}>
       <lastName.Provider value={'Amit'}>
           <Context1 /> 
       </lastName.Provider>
       </FirstName.Provider> */}
+
       {/* // this is for context api */}
 
-      {/* This is for UseContext */}
 
-      <ComA />
+      {/* This is for UseContext */}
+      {/* <ComA /> */}
+
+      <Test1 />
+     
 
     </div>
     

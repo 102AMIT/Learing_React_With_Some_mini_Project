@@ -18,7 +18,7 @@ const UseEffect1 = () => {
   return (
     <>
     <div style={{fontSize:"50px"}}>{count}</div>
-    <button style={{width:"180px",height:"50px",padding:"5px"}} onClick={()=>setCount(count +1)}>Click</button>
+    <button style={{width:"180px",height:"50px",padding:"5px"}} onClick={()=>setCount(count +1)}>Click Test</button>
     </>
   )
 }
