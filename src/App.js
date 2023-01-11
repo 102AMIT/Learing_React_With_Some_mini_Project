@@ -1,5 +1,19 @@
 // import { createContext } from 'react';
 import './App.css';
+
+//**********Browser Router Dom *************<<<<<<<<<<</
+// import { BrowserRouter as Router,Routes, Route } from 'react-router-dom';
+// import Footer from './BrowserRouterDom/Components/Footer';
+// import Home from './BrowserRouterDom/Components/Home';
+// import About from './BrowserRouterDom/Components/About';
+// import Contact from './BrowserRouterDom/Components/Contact';
+// import Navbar from './BrowserRouterDom/Components/Navbar';
+
+//**********Browser Router Dom *************<<<<<<<<<<</
+
+
+
+
 // import First from './class_components/First';
 // import Second from './class_components/Second';
 // import Third from './class_components/Third';
@@ -20,7 +34,8 @@ import './App.css';
 // import UseRef from './function_components/UseRef/UseRef';
 // import UseReducerHook from './function_components/UseReducer/UseReducerHook';
 // import ComA from './function_components/UseContext/ComA';
-import Test1 from './function_components/CustomHook/Test1';
+// import Test1 from './function_components/CustomHook/Test1';
+
 
 
 
@@ -61,7 +76,7 @@ function App() {
       {/* <UseReducerHook /> */}
 
       
-      {/* // this is for context api */}
+      {/* // this is for context api ************************>>>>>/}
 
       {/* <FirstName.Provider value={'Sending from app ..'}>
       <lastName.Provider value={'Amit'}>
@@ -69,14 +84,32 @@ function App() {
       </lastName.Provider>
       </FirstName.Provider> */}
 
-      {/* // this is for context api */}
+      {/* // this is for context api ***************************<<<<<<<<</}
 
 
-      {/* This is for UseContext */}
+      {/* This is for UseContext ***********************/}
       {/* <ComA /> */}
 
-      <Test1 />
-     
+      {/* this is for customHook *************************/}
+      {/* <Test1 /> */}
+
+      {/* <BrowserRouter /> ****************************>>>>>>>>>>>>>>>/}
+
+{/* <Router >
+    <Routes>
+    
+
+            <Route path='/' element={<Home />}/>
+            <Route path='/about' element={<About />}/>
+            <Route path='/contact' element={<Contact />}/>
+    
+    </Routes>
+</Router> */}
+
+      {/* <BrowserRouter /> ***************************<<<<<<<<<<<<<<*/}
+
+
+      <h1>Hello</h1>
 
     </div>
     
