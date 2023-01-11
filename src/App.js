@@ -35,6 +35,8 @@ import './App.css';
 // import UseReducerHook from './function_components/UseReducer/UseReducerHook';
 // import ComA from './function_components/UseContext/ComA';
 // import Test1 from './function_components/CustomHook/Test1';
+import Redux from './REDUX/Redux';
+
 
 
 
@@ -109,7 +111,7 @@ function App() {
       {/* <BrowserRouter /> ***************************<<<<<<<<<<<<<<*/}
 
 
-      <h1>Hello</h1>
+      <Redux />
 
     </div>
     
